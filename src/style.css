@@ -1,3 +1,27 @@
-h1 {
-    font-size: 40;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hello {
+    background-color: palegoldenrod;
+    text-align: center;
+    color: tomato;
+    font-family: monospace;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#root .title {
+    background-color: tomato;
+    color: navajowhite;
+    font-family: monospace;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
