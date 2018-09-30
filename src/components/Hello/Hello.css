@@ -1,0 +1,10 @@
+.container {
+    background-color: palegoldenrod;
+    text-align: center;
+    color: tomato;
+    font-family: monospace;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

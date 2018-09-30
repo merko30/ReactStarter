@@ -1,11 +1,13 @@
 import React from "react";
-import Hello from "./components/Hello";
+import Hello from "./components/Hello/Hello";
+
+import styles from "./App.css";
 
 class App extends React.Component {
     render() {
         return (
-            <div id="root">
-                <h1 className="title">React Starter</h1>
+            <div className={styles.container}>
+                <h1 className={styles.title}>React Starter</h1>
                 <Hello />
             </div>
         );

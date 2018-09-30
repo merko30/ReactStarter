@@ -1,0 +1,12 @@
+.container {
+    background-color: tomato;
+    color: navajowhite;
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding: 1em;
+}
